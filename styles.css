@@ -40,3 +40,41 @@
     color: #ffffff;
   }
   
+body{
+    background-color: black;
+    color: #054783;
+}
+header{
+    height: 500px;
+    width: 100%;
+    border-left: 0;
+    background-image: url(Friends_banner.jpg);
+    font-size: 35px;
+    display: grid;
+    margin-bottom: 0%;
+
+}
+.mainEvent{
+    backdrop-filter: blur(5px);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    height: 317px;
+    width: 577px;
+    border-width: 1px;
+    border-color: rgb(193, 193, 214);
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 1%;
+    display:flex;
+    flex-direction: column;
+}
+main{
+    font-size: 30px;
+    height: 575px;
+    background-color: #f4f4f4;
+}
+content{
+    margin-left: 1.5%;
+    display: flex;
+    flex-direction: column;
+}
