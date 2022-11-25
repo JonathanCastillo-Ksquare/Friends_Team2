@@ -41,7 +41,7 @@
   }
   
 body{
-    background-color: black;
+    background-color: white;
     color: #054783;
 }
 header{
@@ -49,8 +49,8 @@ header{
     width: 100%;
     border-left: 0;
     background-image: url(Friends_banner.jpg);
-    font-size: 35px;
-    display: grid;
+    font-size: 60px;
+    display: flex;
     margin-bottom: 0%;
 
 }
@@ -59,7 +59,7 @@ header{
     font-weight: bold;
     border: 3px solid #f1f1f1;
     height: 317px;
-    width: 577px;
+    width: 700px;
     border-width: 1px;
     border-color: rgb(193, 193, 214);
     margin: auto;
@@ -67,6 +67,9 @@ header{
     margin-left: 1%;
     display:flex;
     flex-direction: column;
+}
+p{
+    margin-bottom: 5%;
 }
 main{
     font-size: 30px;
@@ -77,4 +80,15 @@ content{
     margin-left: 1.5%;
     display: flex;
     flex-direction: column;
+}
+h2{
+    margin-bottom: 1%;
+}
+.pmain{
+    margin-bottom: 3.25%
+}
+.meetTeam{
+    margin-top: -1.1%;
+    height: 400px;
+    background-color: white;
 }
