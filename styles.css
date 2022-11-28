@@ -3,11 +3,11 @@
     padding: 0;
   }
   
-  a{
+a{
     text-decoration: none;
   }
   
-  .navbar{
+.navbar{
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -17,18 +17,18 @@
     font-size: 20px;
   }
   
-  .logo{
+.logo{
     margin-left: 5%;
     color: #ffffff;
     font-size: 25px;
     font-weight: bold;
   }
-  .logo_header{
+.logo_header{
     display: flex;
     margin-left: 2%;
   }
   
-  .main_nav{
+.main_nav{
     display: flex;
     width: 50%;
     float: right;
@@ -36,7 +36,7 @@
     justify-content: space-evenly;
     list-style: none;
   }
-  .main_nav li a{
+.main_nav li a{
     color: #ffffff;
   }
   
@@ -52,6 +52,7 @@ header{
     font-size: 60px;
     display: flex;
     margin-bottom: 0%;
+    color: #eedf0e;
 
 }
 .mainEvent{
@@ -83,12 +84,53 @@ content{
 }
 h2{
     margin-bottom: 1%;
+    margin-left: 5%;
 }
 .pmain{
-    margin-bottom: 3.25%
+    margin-bottom: 3.25%;
+    margin-left: 10%;
 }
 .meetTeam{
     margin-top: -1.1%;
     height: 400px;
     background-color: white;
+}
+.meetTeam>h2{
+    text-align: center;
+    margin-left: 0%;
+}
+.teamgrid{
+    height: 350px;
+    display: grid;
+    grid-template-rows: 1fr 30% 10%;
+    grid-template-columns: 20% 1fr 1fr 1fr 20%;
+    grid-template-areas: 
+                  ". img1 img2 img3  ."
+                  ". info1 info2 info3 ."
+                  ". . . . .";
+    text-align: center;
+}
+
+.staff1{
+    grid-area: img1;
+}
+.staff2{
+    grid-area: img2;
+}
+.staff3{
+    grid-area: img3;
+}
+.desc1{
+    grid-area: info1;
+}
+.desc2{
+    grid-area: info2;
+}
+.desc3{
+    grid-area: info3;
+}
+img{
+    height: 90%;
+    width: 50%;
+    border-radius: 100px;
 }
