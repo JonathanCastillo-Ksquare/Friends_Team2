@@ -13,8 +13,8 @@ a{
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
-  padding-top: 0.8%;
-  padding-bottom: 0.6%;
+  padding-top: 0.6%;
+  padding-bottom: 0.5%;
   background-color: #fabb0f;
   font-size: 20px;
   top: -200px;
@@ -57,7 +57,7 @@ a{
   content: "";
   position: absolute;
   display: block;
-  height: 0.2em;
+  height: 0.1em;
   width: 0%;
   background-color: #ffffff;
   bottom: -0.6em;
