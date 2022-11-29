@@ -85,7 +85,7 @@ header{
     width: 100%;
     border-left: 0;
     background-image: url(Friends_banner.jpg);
-    font-size: 60px;
+    font-size: 50px;
     display: flex;
     margin-bottom: 0%;
     color: #eedf0e;
@@ -96,7 +96,7 @@ header{
     font-weight: bold;
     border: 3px solid #f1f1f1;
     height: 317px;
-    width: 700px;
+    width: 550px;
     border-width: 1px;
     border-color: rgb(193, 193, 214);
     margin: auto;
@@ -104,6 +104,9 @@ header{
     margin-left: 1%;
     display:flex;
     flex-direction: column;
+}
+a{
+  color:#e6ff06;
 }
 p{
     margin-bottom: 5%;
@@ -166,7 +169,7 @@ h2{
     grid-area: info3;
 }
 img{
-    height: 90%;
-    width: 50%;
+    height: 85%;
+    width: 60%;
     border-radius: 100px;
 }
