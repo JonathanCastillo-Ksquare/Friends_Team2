@@ -1,4 +1,4 @@
-window.onscroll = function() {
+window.onscroll = function () {
     scroll()
 };
 
@@ -10,3 +10,13 @@ function scroll() {
         document.querySelector(".navbar").style.top = "-100px";
     }
 }
+
+let sound = new Audio('/friends.mp3');
+window.addEventListener('mousemove', () => {
+    sound.play();
+    sound.volume = 0.06;
+})
+sound.addEventListener('ended', function () {
+    sound.play();
+    sound.volume = 0.06;
+});
