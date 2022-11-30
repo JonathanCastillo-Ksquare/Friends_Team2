@@ -7,23 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Friends-Event</title>
+    <script>
+        let sound = new Audio('/friends.mp3');
+        window.addEventListener('mousemove', () => {
+            sound.play();
+            sound.volume = 0.06;
+        })
+        sound.addEventListener('ended', function () {
+            sound.play();
+            sound.volume = 0.06;
+        });
+    </script>
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="logo_header"><a href="index.html#start" class="logo"><img alt="Friends" src="resources/fLogoR.png"></a></div>
+        <div class="logo_header"><a href="index.html#start" class="logo"><img alt="Friends"
+                    src="resources/fLogoR.png"></a></div>
         <ul class="main_nav">
-          <li><a href="#start" class="nav_links">Home</a></li>
-          <li><a href="#events" class="nav_links">Events</a></li>
-          <li><a href="https://d90x3j21cr4.typeform.com/to/h82404Un" target="_blank" class="nav_links">Contacts</a></li>
-          <li><a href="#meet" class="nav_links">Meet the Team</a></li>
+            <li><a href="#start" class="nav_links">Home</a></li>
+            <li><a href="#events" class="nav_links">Events</a></li>
+            <li><a href="https://d90x3j21cr4.typeform.com/to/h82404Un" target="_blank" class="nav_links">Contacts</a>
+            </li>
+            <li><a href="#meet" class="nav_links">Meet the Team</a></li>
         </ul>
     </nav>
-      
+
     <header id="start">
         <section class="mainEvent">
             <p class="mainDate">Date: 12/December/2022 </p>
-            <p class="location">Location:<u><a href="https://goo.gl/maps/MVoRkRaSrPGooGUV8" target="_blank">Los Angeles Convention Center </a></u></p>
+            <p class="location">Location:<u><a href="https://goo.gl/maps/MVoRkRaSrPGooGUV8" target="_blank">Los Angeles
+                        Convention Center </a></u></p>
             <p class="startingHour">Starting hour: 11:00 AM </p>
         </section>
     </header>
@@ -75,4 +89,5 @@
     </main>
     <script src="index.js"></script>
 </body>
+
 </html>
