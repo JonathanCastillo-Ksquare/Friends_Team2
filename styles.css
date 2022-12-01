@@ -87,13 +87,14 @@ header{
     background-image: url(Friends_banner.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    font-size: 50px;
+    font-size: 43px;
     display: flex;
     margin-bottom: 0%;
     color: #eedf0e;
 
 }
 .mainEvent{
+  font-family: "Comic Sans MS", cursive, sans-serif;
     backdrop-filter: blur(5px);
     font-weight: bold;
     border: 3px solid #f1f1f1;
@@ -106,8 +107,11 @@ header{
     margin-left: 1%;
     display:flex;
     flex-direction: column;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 a{
+  -webkit-text-stroke-color: black;
   color:#e6ff06;
 }
 p{
