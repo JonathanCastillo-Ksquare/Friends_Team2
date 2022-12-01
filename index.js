@@ -25,3 +25,4 @@ sound.addEventListener('ended', function () {
     sound.play();
     sound.volume = 0.06;
 });
+// prueba sonido
